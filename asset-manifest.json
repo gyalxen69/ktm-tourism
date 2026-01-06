@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ktm-tourism/static/css/main.3f109ca4.css",
-    "main.js": "/ktm-tourism/static/js/main.66ace948.js",
+    "main.js": "/ktm-tourism/static/js/main.38528de6.js",
     "index.html": "/ktm-tourism/index.html",
     "main.3f109ca4.css.map": "/ktm-tourism/static/css/main.3f109ca4.css.map",
-    "main.66ace948.js.map": "/ktm-tourism/static/js/main.66ace948.js.map"
+    "main.38528de6.js.map": "/ktm-tourism/static/js/main.38528de6.js.map"
   },
   "entrypoints": [
     "static/css/main.3f109ca4.css",
-    "static/js/main.66ace948.js"
+    "static/js/main.38528de6.js"
   ]
 }
