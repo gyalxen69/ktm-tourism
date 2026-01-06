@@ -1,32 +1,36 @@
 # Welcome to your Kathmandu Tourism project
 
-## Project info
+A React single-page tourism site that promotes the city of Kathmandu with an interactive itinerary builder, photo gallery, promo video, and ambient audio experiences.
 
-**URL**: https://gyalxen69.github.io/ktm-tourism
+## Live Demo
 
-## How can I edit this code?
-Follow these steps:
+- **GitHub Pages**: https://gyalxen69.github.io/ktm-tourism
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- 🌐 **Single-page layout** with smooth scrolling navigation
+- 🏔️ **Hero section** introducing Kathmandu with key stats and call-to-action
+- 🎥 **Video section** with a promotional tour video
+- 🖼️ **Photo gallery** with lightbox modal and highlighted edited image
+- 🎧 **Custom audio player** for ambient city sounds and temple/monastery audio
+- 📋 **Activities catalog** with category filters (Cultural, Spiritual, Food, etc.)
+- 🧳 **Travel itinerary cart** (add/remove activities, total price & duration, booking simulation)
+- 📱 **Responsive design** for desktop and mobile
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-## What technologies are used for this project?
+- **React** (Create React App)
+- **JavaScript / JSX + CSS**
+- **React Context API** for cart/itinerary state
+- **GitHub Pages** for deployment
 
-This project is built with:
+## Getting Started
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. **Clone the repository**
+
+   ```
+   git clone https://github.com/gyalxen69/ktm-tourism.git
+   cd ktm-tourism
+   ```
+
 
