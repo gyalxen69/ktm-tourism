@@ -1,47 +1,34 @@
 import React, { useState } from 'react';
 import './Gallery.css';
 
-/*
-  PLACEHOLDER IMAGES - Replace with your edited images
-  
-  Place your images in: /public/media/images/
-  
-  At least ONE image must show evidence of editing:
-  - Color correction
-  - Compositing
-  - Filters
-  - Text overlay
-  - Other photo manipulation
-*/
-
 const galleryImages = [
   {
     id: 1,
-    src: '/media/images/boudhanath-stupa.jpg',
+    src: process.env.PUBLIC_URL + '/media/images/boudhanath-stupa.jpg',
     alt: 'Boudhanath Stupa - The largest spherical stupa in Nepal',
     title: 'Boudhanath Stupa',
     description: 'One of the largest spherical stupas in Nepal and the holiest Tibetan Buddhist temple outside Tibet.',
-    isEdited: true, // Mark this as your edited image
+    isEdited: true, 
   },
   {
     id: 2,
-    src: '/media/images/pashupatinath.jpg',
+    src: process.env.PUBLIC_URL + '/media/images/pashupatinath.jpg',
     alt: 'Pashupatinath Temple - Sacred Hindu temple complex',
     title: 'Pashupatinath Temple',
     description: 'A UNESCO World Heritage Site and one of the most sacred Hindu temples dedicated to Lord Shiva.',
-    isEdited: false,
+    isEdited: true,
   },
   {
     id: 3,
-    src: '/media/images/swayambhunath.jpg',
+    src: process.env.PUBLIC_URL + '/media/images/swayambhunath.jpg',
     alt: 'Swayambhunath Temple - The Monkey Temple',
     title: 'Swayambhunath (Monkey Temple)',
     description: 'An ancient religious complex atop a hill with the all-seeing Buddha eyes watching over the valley.',
-    isEdited: false,
+    isEdited: true,
   },
   {
     id: 4,
-    src: '/media/images/durbar-square.jpg',
+    src: process.env.PUBLIC_URL + '/media/images/durbar-square.jpg',
     alt: 'Kathmandu Durbar Square - Historic royal palace square',
     title: 'Kathmandu Durbar Square',
     description: 'A spectacular plaza surrounded by temples, palaces, and courtyards built between the 12th-18th centuries.',
@@ -49,19 +36,19 @@ const galleryImages = [
   },
   {
     id: 5,
-    src: '/media/images/thamel-street.jpg',
+    src: process.env.PUBLIC_URL + '/media/images/thamel-street.jpg',
     alt: 'Thamel Street - Tourist hub of Kathmandu',
     title: 'Thamel District',
     description: 'The vibrant tourist hub filled with shops, restaurants, and the heartbeat of modern Kathmandu.',
-    isEdited: false,
+    isEdited: true,
   },
   {
     id: 6,
-    src: '/media/images/himalayan-view.jpg',
+    src: process.env.PUBLIC_URL + '/media/images/himalayan-view.jpg',
     alt: 'Himalayan Mountain View from Kathmandu',
     title: 'Himalayan Panorama',
     description: 'Breathtaking views of the snow-capped Himalayan range visible from various points in the city.',
-    isEdited: false,
+    isEdited: true,
   },
 ];
 
@@ -91,8 +78,7 @@ function Gallery() {
             onClick={() => openLightbox(image)}
           >
             {/* 
-              PLACEHOLDER: Replace src with your actual image paths
-              Example: src="/media/images/your-image.jpg"
+              
             */}
             <div className="image-placeholder">
               <img 

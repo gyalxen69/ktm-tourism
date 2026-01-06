@@ -11,7 +11,7 @@ function Hero() {
 
   return (
     <section id="hero" className="hero">
-      <div className="hero-background" style={{ backgroundImage: "url('/media/images/hero-background.jpg')" }}>
+      <div className="hero-background" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/media/images/hero-background.jpg)` }}>
         <div className="hero-overlay"></div>
       </div>
       

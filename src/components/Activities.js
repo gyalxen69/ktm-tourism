@@ -10,7 +10,7 @@ const tourActivities = [
     price: 25,
     duration: '3 hours',
     category: 'Cultural',
-    image: '/media/images/activities/pashupatinath-tour.jpg',
+    image: process.env.PUBLIC_URL + '/media/images/activities/pashupatinath-tour.jpg',
     highlights: ['Guided tour', 'Aarti ceremony', 'Photography allowed'],
   },
   {
@@ -20,7 +20,7 @@ const tourActivities = [
     price: 15,
     duration: '2 hours',
     category: 'Spiritual',
-    image: '/media/images/activities/boudhanath-walk.jpg',
+    image: process.env.PUBLIC_URL + '/media/images/activities/boudhanath-walk.jpg',
     highlights: ['Prayer wheel spinning', 'Buddhist monasteries', 'Butter tea experience'],
   },
   {
@@ -30,7 +30,7 @@ const tourActivities = [
     price: 20,
     duration: '4 hours',
     category: 'Historical',
-    image: '/media/images/activities/durbar-square-tour.jpg',
+    image: process.env.PUBLIC_URL + '/media/images/activities/durbar-square-tour.jpg',
     highlights: ['Expert guide', 'Living Goddess temple', 'Architecture tour'],
   },
   {
@@ -40,7 +40,7 @@ const tourActivities = [
     price: 35,
     duration: '3 hours',
     category: 'Food',
-    image: '/media/images/activities/food-tour.jpg',
+    image: process.env.PUBLIC_URL + '/media/images/activities/food-tour.jpg',
     highlights: ['6+ food stops', 'Local restaurants', 'Vegetarian options'],
   },
   {
@@ -50,7 +50,7 @@ const tourActivities = [
     price: 30,
     duration: '4 hours',
     category: 'Adventure',
-    image: '/media/images/activities/swayambhu-trek.jpg',
+    image: process.env.PUBLIC_URL + '/media/images/activities/swayambhu-trek.jpg',
     highlights: ['Sunrise views', '365 steps', 'Panoramic photos'],
   },
   {
@@ -60,7 +60,7 @@ const tourActivities = [
     price: 40,
     duration: '3 hours',
     category: 'Workshop',
-    image: '/media/images/activities/pottery-class.jpg',
+    image: process.env.PUBLIC_URL + '/media/images/activities/pottery-class.jpg',
     highlights: ['Hands-on experience', 'Take your creation', 'Local artisans'],
   },
   {
@@ -70,7 +70,7 @@ const tourActivities = [
     price: 200,
     duration: '1 hour',
     category: 'Adventure',
-    image: '/media/images/activities/mountain-flight.jpg',
+    image: process.env.PUBLIC_URL + '/media/images/activities/mountain-flight.jpg',
     highlights: ['Everest views', 'Window seat guaranteed', 'Certificate included'],
   },
   {
@@ -80,7 +80,7 @@ const tourActivities = [
     price: 45,
     duration: '4 hours',
     category: 'Food',
-    image: '/media/images/activities/cooking-class.jpg',
+    image: process.env.PUBLIC_URL + '/media/images/activities/cooking-class.jpg',
     highlights: ['Market visit', 'Hands-on cooking', 'Recipe booklet'],
   },
 ];
